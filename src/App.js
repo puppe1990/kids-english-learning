@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './styles.css';
 
 function App() {
+  const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+  const [selectedLetter, setSelectedLetter] = useState(alphabet[0]);
+
+  const handleLetterClick = (letter) => {
+    setSelectedLetter(letter);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="card-center">
+        <h1 className="selected-letter">{selectedLetter}</h1>
+      </div>
+      <div className="alphabet-container">
+        {alphabet.map((letter) => (
+          <button className="alphabet-letter" onClick={() => handleLetterClick(letter)}>
+            {letter}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
