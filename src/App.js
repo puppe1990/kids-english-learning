@@ -11,7 +11,7 @@ function App() {
   };
 
   const playSound = (letter) => {
-    const audio = new Audio(`./audio/${letter}.mp3`);
+    const audio = new Audio(`./src/audio/${letter}.mp3`);
     audio.load();
     audio.play();
   };
