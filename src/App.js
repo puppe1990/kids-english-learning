@@ -7,6 +7,13 @@ function App() {
 
   const handleLetterClick = (letter) => {
     setSelectedLetter(letter);
+    playSound(letter);
+  };
+
+  const playSound = (letter) => {
+    const audio = new Audio(`./audio/${letter}.mp3`);
+    audio.load();
+    audio.play();
   };
 
   return (
