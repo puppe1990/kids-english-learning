@@ -11,7 +11,7 @@ function App() {
   };
 
   const playSound = (letter) => {
-    const audio = new Audio(`./src/audio/${letter}.mp3`);
+    const audio = new Audio(`http://soundfxcenter.com/human/speech/8d82b5_Letter_${letter}_Sound_Effect.mp3`);
     audio.load();
     audio.play();
   };
