@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css';
+import './number.css';
 
 function Number() {
   const numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
