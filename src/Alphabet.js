@@ -5,7 +5,7 @@ const AudioLetter = ({ letter, handleLetterClick }) => {
   const [audio, setAudio] = React.useState(null);
 
   React.useEffect(() => {
-      import(`./audio/${letter}.mp3`)
+      import(`./audio/alphabet/${letter}.mp3`)
           .then(audioModule => setAudio(audioModule.default))
   }, [letter]);
 
