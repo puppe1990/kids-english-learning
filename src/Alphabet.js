@@ -23,7 +23,7 @@ const AudioLetter = ({ letter, handleLetterClick }) => {
   );
 }
 
-function App() {
+function Alphabet() {
   const alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
   const [selectedLetter, setSelectedLetter] = useState(alphabet[0]);
 
@@ -43,4 +43,4 @@ function App() {
   );
 }
 
-export default App;
+export default Alphabet;
