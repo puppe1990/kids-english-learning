@@ -8,5 +8,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Alphabet />
+    <Number />
   </React.StrictMode>
 );
