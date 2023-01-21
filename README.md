@@ -23,7 +23,7 @@ If you would like to contribute to this project, please fork the repository and 
 If you have any issues or questions, please open an issue or contact the project maintainers.
 
 ## Author
-This project was created by [Your Name]
+This project was created by @puppe1990
 
 ## License
 This project is licensed under the MIT License.
