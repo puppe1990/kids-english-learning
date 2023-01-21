@@ -1,6 +1,9 @@
 # Welcome to the Kids English Learning App!
 This app is designed to help users learn and practice the English alphabet and numbers through interactive audio.
 
+![image](https://user-images.githubusercontent.com/8432835/213873378-146eaa39-49db-4153-8e67-82186708e8cf.png)
+
+
 ## Features
 * Select a letter from the alphabet or number and hear its pronunciation
 * View the currently selected letter or number
